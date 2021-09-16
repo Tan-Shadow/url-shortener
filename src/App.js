@@ -73,7 +73,7 @@ const App = () => {
               navigator.clipboard.writeText(url)
               urlCopied = { urlCopied }
             }} />
-          : <h2 style={{color: 'greenyellow', fontSize : '2rem', fontFamily : 'monospace'}}>Getting your data...</h2>
+          : <h2 style={{color: 'greenyellow', fontSize : '2rem', fontFamily : 'monospace'}}>Getting your url...</h2>
         )
       }
 
